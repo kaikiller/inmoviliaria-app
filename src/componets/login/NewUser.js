@@ -59,6 +59,8 @@ class NewUser extends Component {
                 <Grid item md={6} xs={12} >
                     <TextField name="name" onChange={this.onChange} value={this.state.user.name} fullWidth label="Ingrese su nombre"></TextField>
                 </Grid>
+
+                
                 <Grid item md={6} xs={12} >
                     <TextField name="lastname"  fullWidth label="Ingrese su apellido"></TextField>
                 </Grid>
@@ -72,7 +74,7 @@ class NewUser extends Component {
               <Grid container justify ="center">
                   <Grid item xs={12} md={6}>
                       <Button type="submit" onClick={this.registerUser} variant ="contained" fullWidth size="large" color="primary" style={style.submitt}>
-                        
+                        registro
                       </Button>
                   </Grid>
               </Grid>
