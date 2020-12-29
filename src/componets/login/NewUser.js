@@ -72,10 +72,7 @@ class NewUser extends Component {
               <Grid container justify ="center">
                   <Grid item xs={12} md={6}>
                       <Button type="submit" onClick={this.registerUser} variant ="contained" fullWidth size="large" color="primary" style={style.submitt}>
-                          Registrar
-
-
-                          
+                        
                       </Button>
                   </Grid>
               </Grid>
