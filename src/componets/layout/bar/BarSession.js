@@ -41,6 +41,9 @@ class BarSession extends Component {
                     <IconButton color="inherit">
                         <i className= "material-icons">more_vert</i>
                     </IconButton>
+
+
+                    
                 </div>
             
         </Toolbar>
